@@ -9,3 +9,8 @@ Conducts currency conversion using Fixer.io - the foreign exchange rates and cur
 1. Install using `npm install`
 2. Run using `npm start`
 3. Follow the instructions on how to run locally - https://developer.mixmax.com/docs/overview-slash-commands
+- Name: Currency Conversion
+- Command: convert
+- Placeholder: [currency to currency]
+- Typeahead API URL: https://localhost:9145/typeahead
+- Resolver API URL: https://localhost:9145/resolver
