@@ -1,0 +1,30 @@
+{
+  "name": "mixmax-currency-conversion-slash-command",
+  "version": "0.0.1",
+  "description": "Currency slash command for Mixmax",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joanhong/mixmax-currency-conversion-slash-command.git"
+  },
+  "author": "Joan Hong <joanhong@usc.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joanhong/mixmax-currency-conversion-slash-command/issues"
+  },
+  "homepage": "https://github.com/joanhong/mixmax-currency-conversion-slash-command",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "pem": "^1.8.3",
+    "request": "^2.64.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
